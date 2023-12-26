@@ -1,5 +1,5 @@
 $color-name: #1b4dd8;
-$color-field: #abb2b1;
+$color-field: #909796;
 
 ._ {
   width: 100%;
@@ -7,6 +7,10 @@ $color-field: #abb2b1;
   justify-content: space-between;
   gap: 2rem;
   padding: 1rem;
+
+  a {
+    color: $color-name;
+  }
 
   ._name {
     color: $color-name;
@@ -18,5 +22,12 @@ $color-field: #abb2b1;
   ._field {
     color: $color-field;
     font-weight: 300;
+  }
+
+  // Links
+  ._contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
   }
 }

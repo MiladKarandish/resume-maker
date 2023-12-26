@@ -12,6 +12,18 @@ const MainTemplate = () => {
       title: "miladkaarandish@gmail.com",
       href: "https://miladkaarandish@gmail.com",
     },
+    {
+      title: "+98 917 685 6577",
+      href: "https://miladkaarandish@gmail.com",
+    },
+    {
+      title: "github.com/MiladKarandish",
+      href: "https://github.com/MiladKarandish",
+    },
+    {
+      title: "linkedin.com/in/milad-karandish",
+      href: "https://www.linkedin.com/in/milad-karandish",
+    },
   ];
 
   return (
@@ -31,7 +43,7 @@ const MainTemplate = () => {
       {/* Side */}
       <aside>
         {/* Links */}
-        <div>
+        <div className={`${styles["_contact-links"]}`}>
           {contactLinks.map((contact) => (
             <a href={contact.href} target="_blank" key={contact.title}>
               {contact.title}
