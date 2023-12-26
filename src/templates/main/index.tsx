@@ -3,6 +3,7 @@ import styles from "./main-template.module.scss";
 export interface Props {}
 
 const MainTemplate = () => {
+  // Links
   interface IContactLinks {
     title: string;
     href: string;
@@ -28,7 +29,7 @@ const MainTemplate = () => {
 
   return (
     <div className={`${styles["_"]}`}>
-      <main>
+      <main className={`${styles["container"]}`}>
         <header>
           <h1 className={`${styles["_name"]}`}>Milad Karandish</h1>
           <h3 className={`${styles["_field"]}`}>Front End Developer</h3>
@@ -41,7 +42,7 @@ const MainTemplate = () => {
       </main>
 
       {/* Side */}
-      <aside>
+      <aside className={`${styles["container"]}`}>
         {/* Links */}
         <div className={`${styles["_contact-links"]}`}>
           {contactLinks.map((contact) => (
@@ -49,6 +50,11 @@ const MainTemplate = () => {
               {contact.title}
             </a>
           ))}
+        </div>
+
+        {/* Skills */}
+        <div className={`${styles["_skills"]}`}>
+          <h2 className={`${styles["title"]}`}>Skills</h2>
         </div>
       </aside>
     </div>

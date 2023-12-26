@@ -1,5 +1,5 @@
-$color-name: #1b4dd8;
-$color-field: #909796;
+$color-primary: #1b4dd8;
+$color-field: #636464;
 
 ._ {
   width: 100%;
@@ -9,11 +9,23 @@ $color-field: #909796;
   padding: 1rem;
 
   a {
-    color: $color-name;
+    color: $color-primary;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title {
+    color: $color-primary;
+    font-size: 1.8rem;
+    font-weight: 600;
   }
 
   ._name {
-    color: $color-name;
+    color: $color-primary;
     font-family: "Calibri", sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
@@ -29,5 +41,9 @@ $color-field: #909796;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+  }
+
+  // Skills
+  ._skills {
   }
 }
