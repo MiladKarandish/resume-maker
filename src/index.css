@@ -8,7 +8,8 @@
 
 html,
 body {
-  size: 7in 9.25in;
+  /* size: 7in 9.25in; */
   /* margin: 27mm 16mm 27mm 16mm; */
   font-family: "Segoe UI", sans-serif;
+  /* font-size: 2rem; */
 }
