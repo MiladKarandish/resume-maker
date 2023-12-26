@@ -27,6 +27,22 @@ const MainTemplate = () => {
     },
   ];
 
+  // Skills
+  interface ISkills {
+    title: string;
+    items: string[];
+  }
+  const skills: ISkills[] = [
+    {
+      title: "Languages",
+      items: ["JavaScript", "Typescript"],
+    },
+    {
+      title: "API",
+      items: ["REST", "GraphQL"],
+    },
+  ];
+
   return (
     <div className={`${styles["_"]}`}>
       <main className={`${styles["container"]}`}>
@@ -55,6 +71,19 @@ const MainTemplate = () => {
         {/* Skills */}
         <div className={`${styles["_skills"]}`}>
           <h2 className={`${styles["title"]}`}>Skills</h2>
+
+          <div className={`${styles["sub-container"]}`}>
+            {skills.map((skill) => (
+              <div>
+                <h3 className={`${styles["sub-title"]}`}>{skill.title}</h3>
+                {skill.items.map((item, i) => (
+                  <span className={`${styles["light-text"]}`}>
+                    {item} {i + 1 < skill.items.length && ", "}
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
       </aside>
     </div>

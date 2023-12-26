@@ -18,10 +18,26 @@ $color-field: #636464;
     gap: 1rem;
   }
 
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .title {
+    margin-bottom: 0.5rem;
     color: $color-primary;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .light-text {
+    color: $color-field;
   }
 
   ._name {
@@ -44,6 +60,4 @@ $color-field: #636464;
   }
 
   // Skills
-  ._skills {
-  }
 }
