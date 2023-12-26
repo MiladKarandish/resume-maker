@@ -1,0 +1,20 @@
+$color-name: #1b4dd8;
+$color-field: #abb2b1;
+
+._ {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+
+  ._name {
+    color: $color-name;
+    font-family: "Calibri", sans-serif;
+    font-weight: 600;
+  }
+
+  ._field {
+    color: $color-field;
+    font-weight: 300;
+  }
+}
