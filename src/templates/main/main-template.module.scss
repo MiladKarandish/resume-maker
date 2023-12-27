@@ -21,7 +21,7 @@ $color-field: #636464;
   .sub-container {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.7rem;
   }
 
   .title {
@@ -34,6 +34,7 @@ $color-field: #636464;
   .sub-title {
     font-size: 1.2rem;
     font-weight: 600;
+    margin-bottom: 7px;
   }
 
   .light-text {
