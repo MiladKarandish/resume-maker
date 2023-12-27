@@ -29,7 +29,7 @@ const Experiences = () => {
       ],
     },
     {
-      title: "Frelance Front End Developer",
+      title: "Front End Developer",
       at: {
         title: "@Fortune Web Works Agency",
         href: "",
