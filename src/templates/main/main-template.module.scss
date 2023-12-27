@@ -40,9 +40,8 @@ $color-field: #636464;
     color: $color-field;
   }
 
-  // aside
   ._aside {
-    max-width: 30%;
+    max-width: 35%;
   }
 
   ._name {
@@ -57,6 +56,11 @@ $color-field: #636464;
     font-weight: 300;
   }
 
+  ._about-me {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
   // Links
   ._contact-links {
     display: flex;
@@ -64,5 +68,9 @@ $color-field: #636464;
     gap: 0.6rem;
   }
 
-  // Skills
+  ._experience-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
