@@ -50,7 +50,7 @@ const Experiences = () => {
 
       <div className={`${styles["container"]}`}>
         {experiences.map(({ title, at, date, hilights }) => (
-          <div className={`${styles["sub-container"]}`} key={title}>
+          <div key={title}>
             <div className={`${styles["_experience-title"]}`}>
               <h3 className={`${styles["sub-title"]}`}>{title}</h3>
               <a href={at.href} target="_blank">
