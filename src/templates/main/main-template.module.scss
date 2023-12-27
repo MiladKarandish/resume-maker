@@ -40,6 +40,11 @@ $color-field: #636464;
     color: $color-field;
   }
 
+  // aside
+  ._aside {
+    max-width: 30%;
+  }
+
   ._name {
     color: $color-primary;
     font-family: "Calibri", sans-serif;
