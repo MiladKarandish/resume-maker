@@ -34,11 +34,11 @@ $color-field: #636464;
   .sub-title {
     font-size: 1rem;
     font-weight: 600;
-    // margin-bottom: 7px;
   }
 
   .light-text {
     color: $color-field;
+    font-size: 0.85rem;
   }
 
   ._aside {
@@ -62,6 +62,11 @@ $color-field: #636464;
     font-size: 0.9rem;
     font-weight: 600;
     color: #333;
+  }
+
+  ._skill-items {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   // Links

@@ -34,7 +34,7 @@ const Side = () => {
     {
       title: "Languages",
       items: [
-        "React,",
+        "React",
         "Next.js(SSR, SSG, ISR)",
         "Vue.js",
         "Nuxt.js",
@@ -124,13 +124,20 @@ const Side = () => {
         <div className={`${styles["sub-container"]}`}>
           {skills.map((skill) => (
             <div key={skill.title}>
-              <h3 className={`${styles["sub-title"]}`}>{skill.title}</h3>
-              {skill.items &&
-                skill.items.map((item, i) => (
-                  <span key={item} className={`${styles["light-text"]}`}>
-                    {item} {i + 1 < skill.items!.length && ", "}
-                  </span>
-                ))}
+              <h3
+                className={`${styles["sub-title"]}`}
+                style={{ marginBottom: "7px" }}
+              >
+                {skill.title}
+              </h3>
+              <div className={`${styles["_skill-items"]}`}>
+                {skill.items &&
+                  skill.items.map((item, i) => (
+                    <span key={item} className={`${styles["light-text"]}`}>
+                      {item} {i + 1 < skill.items!.length && ", "}
+                    </span>
+                  ))}
+              </div>
             </div>
           ))}
         </div>
