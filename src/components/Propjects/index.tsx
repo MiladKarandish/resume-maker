@@ -9,16 +9,14 @@ const Propjects = () => {
   }
   const projects: IProjects[] = [
     {
-      title: "Front End Developer",
+      title: "NFT Indexing Website",
       source: "",
       demo: "",
       hilights: [
-        "Teamed up with developers to deliver a seamless user experience using HTML, CSS, Sass, JavaScript, and TypeScript.",
-        "Utilized React, Next.js, Redux, React Leaflet, and WebSocket (Socket.io) tobuild scalable and maintainable applications",
-        "Demonstrated strong debugging skills in resolving issues within existingcodebases that utilized Bootstrap and jQuery.",
-        "Improved performance and maintained code standards through effectiveproblem solving",
-        "Mentored and assisted junior developers, providing guidance and support throughout the development process",
-        "Collaborated closely with the backend development team to optimize processes, improve performance, and enhance overall application efficiency.",
+        "Developed React-based frontend for NFT platform with wallet integration.",
+        "Created custom components to enhance the platform's uniqueness.",
+        "Optimized data rendering for smooth performance.",
+        "Coordinated extensive API calls, dynamically updating select options based on user input for comprehensive real-time data synchronization.",
       ],
     },
   ];
