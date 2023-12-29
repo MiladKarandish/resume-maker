@@ -1,4 +1,4 @@
-import styles from "../../main-template.module.scss";
+import styles from "../../app.module.scss";
 
 const Side = () => {
   // Links

@@ -1,5 +1,4 @@
-import styles from "../../main-template.module.scss";
-import experiencesStyles from "./experiences.module.scss";
+import styles from "../../app.module.scss";
 
 const Experiences = () => {
   interface IExperiences {
@@ -45,7 +44,7 @@ const Experiences = () => {
   ];
 
   return (
-    <div className={`${experiencesStyles["_"]}`}>
+    <div className={`${styles["sections_container"]}`}>
       <h2 className={`${styles["title"]}`}>Relevant Experience</h2>
 
       <div className={`${styles["container"]}`}>
@@ -58,9 +57,7 @@ const Experiences = () => {
               </a>
             </div>
 
-            <span
-              className={`${styles["light-text"]} ${experiencesStyles["_date"]}`}
-            >
+            <span className={`${styles["light-text"]} ${styles["_date"]}`}>
               {date}
             </span>
 
