@@ -41,6 +41,20 @@ const Experiences = () => {
         "Enhanced precision in prioritizing pixel-perfect designs, and executed rigorous quality control for seamless user experiences.",
       ],
     },
+    {
+      title: "Front End Developer",
+      at: {
+        title: "@Ragham Agency",
+        href: "",
+      },
+      date: "Dec 2023, Present",
+      hilights: [
+        "Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.",
+        "Actively sought opportunities to expand knowledge and expertise andtackled technical challenges to find innovative solutions",
+        "Cultivated a deep understanding of client needs through direct interaction, ensuring effective communication and a tailored approach to website development.",
+        "Enhanced precision in prioritizing pixel-perfect designs, and executed rigorous quality control for seamless user experiences.",
+      ],
+    },
   ];
 
   return (
@@ -49,7 +63,7 @@ const Experiences = () => {
 
       <div className={`${styles["container"]}`}>
         {experiences.map(({ title, at, date, hilights }) => (
-          <div key={title}>
+          <div key={at.title}>
             <div className={`${styles["_experience-title"]}`}>
               <h3 className={`${styles["sub-title"]}`}>{title}</h3>
               <a href={at.href} target="_blank">
