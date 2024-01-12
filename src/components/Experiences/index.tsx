@@ -50,9 +50,6 @@ const Experiences = () => {
       date: "Dec 2023, Present",
       hilights: [
         "Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.",
-        "Actively sought opportunities to expand knowledge and expertise andtackled technical challenges to find innovative solutions",
-        "Cultivated a deep understanding of client needs through direct interaction, ensuring effective communication and a tailored approach to website development.",
-        "Enhanced precision in prioritizing pixel-perfect designs, and executed rigorous quality control for seamless user experiences.",
       ],
     },
   ];
