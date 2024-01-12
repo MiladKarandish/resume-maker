@@ -50,6 +50,7 @@ export const process = async (
       packaged_filename: "MiladKarandish",
     }),
   });
+
   await res.json();
 
   download(server, task);
