@@ -24,7 +24,7 @@ const Experiences = () => {
         "Demonstrated strong debugging skills in resolving issues within existingcodebases that utilized Bootstrap and jQuery.",
         "Improved performance and maintained code standards through effectiveproblem solving",
         "Mentored and assisted junior developers, providing guidance and support throughout the development process",
-        "Collaborated closely with the backend development team to optimize processes, improve performance, and enhance overall application efficiency.",
+        "Coordinated closely with the backend development team to optimize processes, improve performance, and enhance overall application efficiency.",
       ],
     },
     {
@@ -36,7 +36,7 @@ const Experiences = () => {
       date: "Jun 2020, Aug 2022 ______ May 2023, Sept 2023",
       hilights: [
         "Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.",
-        "Actively sought opportunities to expand knowledge and expertise, tackled technical challenges, and found innovative solutions, including working with Vue.js and Nuxt.js.",
+        "Vigorously sought opportunities to expand knowledge and expertise, tackled technical challenges, and found innovative solutions, including working with Vue.js and Nuxt.js.",
         "Cultivated a deep understanding of client needs through direct interaction, ensuring effective communication and a tailored approach to website development.",
         "Enhanced precision in prioritizing pixel-perfect designs, and executed rigorous quality control for seamless user experiences.",
       ],
@@ -49,11 +49,11 @@ const Experiences = () => {
       },
       date: "Dec 2023, Present",
       hilights: [
-        "Spearheaded the implementation of Vue.js, demonstrating a profound understanding of the framework to create a responsive and user-friendly web application.",
+        "Led the implementation of Vue.js, demonstrating a profound understanding of the framework to create a responsive and user-friendly web application.",
         "Collaborated closely with the backend team to ensure seamless integration between the frontend and backend components, optimizing overall system performance.",
         "Leveraged Tailwind CSS and Pinia to enhance the app's visual appeal and streamline the user interface, contributing to an improved user experience.",
         "Actively engaged with the design team, translating user feedback and preferences into actionable development tasks to enhance the application's usability.",
-        "Demonstrated adaptability and proficiency in utilizing Figma for effective communication and collaboration with the design team, resulting in a cohesive and aesthetically pleasing web application.",
+        "Manifested adaptability and proficiency in utilizing Figma for effective communication and collaboration with the design team, resulting in a cohesive and aesthetically pleasing web application.",
       ],
     },
   ];
