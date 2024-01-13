@@ -39,6 +39,7 @@ const Side = () => {
         "Vue.js",
         "Nuxt.js",
         "Redux",
+        "Pinia",
         "jQuery",
         "Node.js",
         "Express.js",

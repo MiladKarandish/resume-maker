@@ -96,8 +96,7 @@ export const auth = async () => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      public_key:
-        "project_public_f76b994d501b08b7e05419d681e15c3a_Q6clf53c3c6280291ef27b08a19558cbe4414",
+      public_key: import.meta.env.VITE_ILOVEPDF_PUBLIC_KEY,
     }),
   });
 
