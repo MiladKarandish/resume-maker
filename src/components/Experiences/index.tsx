@@ -74,9 +74,7 @@ const Experiences = () => {
 
             <ul>
               {hilights.map((hilight) => (
-                <li className={`${styles["light-text"]}`} key={hilight}>
-                  {hilight}
-                </li>
+                <li key={hilight}>{hilight}</li>
               ))}
             </ul>
           </div>
