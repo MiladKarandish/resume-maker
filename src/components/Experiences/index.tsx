@@ -41,17 +41,17 @@ const Experiences = () => {
         "Enhanced precision in prioritizing pixel-perfect designs, and executed rigorous quality control for seamless user experiences.",
       ],
     },
-    {
-      title: "Front End Developer",
-      at: {
-        title: "@Ragham Agency",
-        href: "",
-      },
-      date: "Dec 2023, Present",
-      hilights: [
-        "Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.",
-      ],
-    },
+    // {
+    //   title: "Front End Developer",
+    //   at: {
+    //     title: "@Ragham Agency",
+    //     href: "",
+    //   },
+    //   date: "Dec 2023, Present",
+    //   hilights: [
+    //     "Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.",
+    //   ],
+    // },
   ];
 
   return (
@@ -74,7 +74,9 @@ const Experiences = () => {
 
             <ul>
               {hilights.map((hilight) => (
-                <li key={hilight}>{hilight}</li>
+                <li className={`${styles["light-text"]}`} key={hilight}>
+                  {hilight}
+                </li>
               ))}
             </ul>
           </div>

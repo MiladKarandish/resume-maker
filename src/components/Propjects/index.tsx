@@ -19,6 +19,19 @@ const Propjects = () => {
         "Coordinated extensive API calls, dynamically updating select options based on user input for comprehensive real-time data synchronization.",
       ],
     },
+    {
+      title: "Transportation service",
+      source: "",
+      demo: "",
+      hilights: [
+        "Contributed to a transportation app using React, TypeScript, and Sass.",
+        "Implemented real-time communication features through WebSockets.",
+        "Partnered with UI/UX designers to ensure accurate implementation.",
+        "Worked closely with the back-end team to achieve seamless integration.",
+        "Gained experience in front-end development, React, TypeScript, Sass, WebSockets.",
+        "Demonstrated cross-functional collaboration skills.",
+      ],
+    },
   ];
 
   return (
@@ -44,7 +57,9 @@ const Propjects = () => {
 
             <ul>
               {hilights.map((hilight) => (
-                <li key={hilight}>{hilight}</li>
+                <li className={`${styles["light-text"]}`} key={hilight}>
+                  {hilight}
+                </li>
               ))}
             </ul>
           </div>
