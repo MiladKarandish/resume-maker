@@ -9,11 +9,11 @@ const Side = () => {
   const contactLinks: IContactLinks[] = [
     {
       title: "miladkaarandish@gmail.com",
-      href: "https://miladkaarandish@gmail.com",
+      href: "mailto:miladkaarandish@gmail.com",
     },
     {
       title: "+98 917 685 6577",
-      href: "https://miladkaarandish@gmail.com",
+      href: "tel:+989176856577",
     },
     {
       title: "github.com/MiladKarandish",
