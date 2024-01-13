@@ -20,10 +20,10 @@ const Experiences = () => {
       date: "Oct 2022, May 2023",
       hilights: [
         "Teamed up with developers to deliver a seamless user experience using HTML, CSS, Sass, JavaScript, and TypeScript.",
-        "Utilized React, Next.js, Redux, React Leaflet, and WebSocket (Socket.io) tobuild scalable and maintainable applications",
+        "Utilized React, Next.js, Redux, React Leaflet, and WebSocket (Socket.io) tobuild scalable and maintainable applications.",
         "Demonstrated strong debugging skills in resolving issues within existingcodebases that utilized Bootstrap and jQuery.",
-        "Improved performance and maintained code standards through effectiveproblem solving",
-        "Mentored and assisted junior developers, providing guidance and support throughout the development process",
+        "Enhanced system efficiency and upheld coding standards through strategic and effective problem-solving.",
+        "Mentored and assisted junior developers, providing guidance and support throughout the development process.",
         "Coordinated closely with the backend development team to optimize processes, improve performance, and enhance overall application efficiency.",
       ],
     },
