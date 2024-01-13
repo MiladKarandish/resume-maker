@@ -7,7 +7,7 @@ const Header = () => {
       <h3 className={`${styles["_field"]}`}>Front End Developer</h3>
 
       <p className={`${styles["_about-me"]}`}>
-        front-end web developer with more than 3 years of experience.
+        front-end web developer with nearly 4 years of experience.
       </p>
     </>
   );
