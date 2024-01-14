@@ -10,8 +10,8 @@ const Propjects = () => {
   const projects: IProjects[] = [
     {
       title: "NFT Indexing Website",
-      source: "",
-      demo: "",
+      source: "https://github.com/MiladKarandish/cyber-dash",
+      demo: "https://cyber-dash-seven.vercel.app",
       hilights: [
         "Developed React-based frontend for NFT platform with wallet integration.",
         "Created custom components to enhance the platform's uniqueness.",
