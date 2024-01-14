@@ -6,9 +6,30 @@ const Download = () => {
   };
 
   return (
-    <button onClick={onDownload} style={{ cursor: "pointer" }}>
-      Download
-    </button>
+    <div
+      style={{
+        width: "100dvw",
+        height: "100dvh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <button
+        onClick={onDownload}
+        style={{
+          cursor: "pointer",
+          width: "50%",
+          height: "30%",
+          backgroundColor: "cornflowerblue",
+          color: "white",
+          border: "0",
+          borderRadius: "12px",
+        }}
+      >
+        Download
+      </button>
+    </div>
   );
 };
 
