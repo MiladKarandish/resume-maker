@@ -8,10 +8,11 @@ const Header = () => {
 
       {/* front-end web developer with nearly 4 years of experience. */}
       <p className={`${styles["_about-me"]}`}>
-        Frontend Developer skilled in JavaScript, React, and Next.js, with
-        experience in Redux, Node.js, and CSS frameworks. Proficient in GraphQL,
-        REST APIs, and MongoDB. Focused on UX/UI optimization and SEO best
-        practices.
+        Skilled Frontend Web Developer with nearly 4 years of experience
+        specializing in JavaScript, React, and Next.js. Proficient in Redux,
+        Node.js, and various CSS frameworks. Experienced in building responsive
+        and user-friendly web applications. Strong understanding of frontend
+        development best practices and trends.
       </p>
     </>
   );
