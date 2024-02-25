@@ -58,7 +58,7 @@ const Experiences = () => {
 
         "Collaborated closely with the backend team to ensure seamless integration between the frontend and backend components, optimizing overall system performance.",
 
-        "Leveraged Tailwind CSS and Pinia to enhance the app's visual appeal and streamline the user interface, contributing to an improved user experience.",
+        "Leveraged Tailwind CSS, Pinia, and Redux Toolkit to enhance the app's visual appeal, streamline the user interface, and manage state effectively, contributing to an improved user experience.",
 
         "Actively engaged with the design team, translating user feedback and preferences into actionable development tasks to enhance the application's usability.",
 
