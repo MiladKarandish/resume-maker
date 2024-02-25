@@ -8,8 +8,10 @@ const Header = () => {
 
       {/* front-end web developer with nearly 4 years of experience. */}
       <p className={`${styles["_about-me"]}`}>
-        Specializing in React, Next.js, Vue, Nuxt, and TypeScript. Dedicated to
-        crafting intuitive user interfaces for enhanced user experience
+        Experienced Frontend Developer proficient in React, Next.js, Vue, Nuxt,
+        and TypeScript. Skilled in crafting intuitive user interfaces to enhance
+        user experience. Dedicated team player with a passion for staying
+        updated with the latest web development trends and technologies.
       </p>
     </>
   );
