@@ -8,10 +8,15 @@ const Header = () => {
 
       {/* front-end web developer with nearly 4 years of experience. */}
       <p className={`${styles["_about-me"]}`}>
-        Experienced Frontend Developer proficient in React, Next.js, Vue, Nuxt,
-        and TypeScript. Skilled in crafting intuitive user interfaces to enhance
-        user experience. Dedicated team player with a passion for staying
-        updated with the latest web development trends and technologies.
+        Experienced Frontend Developer proficient in JavaScript and TypeScript,
+        with a strong foundation in React and Next.js frameworks. Skilled in
+        Redux, Node.js, and various libraries such as jQuery and Express.js.
+        Proficient in modern CSS methodologies including Sass, Bootstrap, and
+        Tailwind CSS. Well-versed in GraphQL and REST APIs, MongoDB, and CMS
+        platforms like Contentful and Strapi. Demonstrated ability in optimizing
+        UX/UI, implementing SEO best practices, and adhering to industry
+        standards. Committed to continuous learning and staying updated with the
+        latest technologies.
       </p>
     </>
   );
