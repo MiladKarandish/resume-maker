@@ -54,7 +54,7 @@ const Experiences = () => {
         // "Leveraged Tailwind CSS and Pinia to enhance the app's visual appeal and streamline the user interface, contributing to an improved user experience.",
         // "Actively engaged with the design team, translating user feedback and preferences into actionable development tasks to enhance the application's usability.",
         // "Manifested adaptability and proficiency in utilizing Figma for effective communication and collaboration with the design team, resulting in a cohesive and aesthetically pleasing web application.",
-        "Led the implementation of Vue.js, Next.js, and React, showcasing a profound understanding of these frameworks to create responsive and user-friendly web applications.",
+        "Led the implementation of Vue.js, Nuxt.js, Next.js, and React, showcasing a profound understanding of these frameworks to create responsive and user-friendly web applications.",
 
         "Collaborated closely with the backend team to ensure seamless integration between the frontend and backend components, optimizing overall system performance.",
 
