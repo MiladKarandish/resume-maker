@@ -8,15 +8,10 @@ const Header = () => {
 
       {/* front-end web developer with nearly 4 years of experience. */}
       <p className={`${styles["_about-me"]}`}>
-        Experienced Frontend Developer proficient in JavaScript and TypeScript,
-        with a strong foundation in React and Next.js frameworks. Skilled in
-        Redux, Node.js, and various libraries such as jQuery and Express.js.
-        Proficient in modern CSS methodologies including Sass, Bootstrap, and
-        Tailwind CSS. Well-versed in GraphQL and REST APIs, MongoDB, and CMS
-        platforms like Contentful and Strapi. Demonstrated ability in optimizing
-        UX/UI, implementing SEO best practices, and adhering to industry
-        standards. Committed to continuous learning and staying updated with the
-        latest technologies.
+        Skilled Frontend Developer proficient in JavaScript, React, and Next.js.
+        Experienced in Redux, Node.js, and CSS frameworks like Sass and
+        Bootstrap. Knowledgeable in GraphQL, REST APIs, and MongoDB. Strong
+        focus on UX/UI optimization and SEO best practices.
       </p>
     </>
   );
