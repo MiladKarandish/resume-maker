@@ -7,6 +7,7 @@ const Experiences = () => {
       name: string;
       title: string;
       type: string;
+      description: string;
       href: string;
     };
     date: string;
@@ -19,6 +20,7 @@ const Experiences = () => {
         name: '@Ragham',
         title: 'Accounting Application',
         type: 'Startup',
+        description: `Ragham is an startup company with 10 employes providing an <b>accounting application</b> for Android, Ios and Web with over 10k active users.`,
         href: 'https://www.linkedin.com/company/ragham',
       },
       date: 'Dec 2023, Present',
@@ -40,9 +42,10 @@ const Experiences = () => {
         name: '@Pishgamanasia',
         title: 'Integrated Software Solutions',
         type: 'Established Enterprise',
+        description: `Ragham is an startup company with 10 employes providing an <b>accounting application</b> for Android, Ios and Web with over 10k active users.`,
         href: 'https://en.pishgamanasia.com',
       },
-      date: 'Oct 2022, May 2023',
+      date: 'Oct 2022, Nov 2023 . 1 yr 2 mos',
       hilights: [
         'Teamed up with developers to deliver a seamless user experience using HTML, CSS, Sass, JavaScript, and TypeScript.',
 
@@ -63,9 +66,10 @@ const Experiences = () => {
         name: '@Fortune Web Works',
         title: '',
         type: 'Freelance Partnership',
+        description: '',
         href: 'https://fortune-new.vercel.app',
       },
-      date: 'Jun 2020, Aug 2022 ______ May 2023, Sept 2023',
+      date: 'May 2020, Oct 2022 . 2 yr 6 mos',
       hilights: [
         'Successfully engaged with diverse team members, including designersand backend developers, to create cohesive and high-quality websites.',
 
@@ -83,24 +87,24 @@ const Experiences = () => {
       <h2 className={`${styles['title']}`}>Relevant Experience</h2>
 
       <div className={`${styles['container']}`}>
-        {experiences.map(({ title, at, date, hilights }) => (
+        {experiences.map(({ title, at, date, hilights }, i) => (
           <div key={at.title}>
-            <div>
+            <div className="flex items-center gap-2">
               <h3 className={`${styles['sub-title']}`}>{title}</h3>
 
               <div>
                 <a href={at.href} target="_blank">
                   {at.name}
                 </a>
-                <span className="font-bold">
-                  , {at.type} {at.title && ` - ${at.title}`}
-                </span>
+                <span className="font-bold">, {at.type}</span>
               </div>
             </div>
 
             <span className={`${styles['light-text']} ${styles['_date']}`}>
               {date}
             </span>
+
+            <p dangerouslySetInnerHTML={{ __html: at.description }}></p>
 
             <ul>
               {hilights.map((hilight) => (

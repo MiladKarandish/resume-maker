@@ -14,9 +14,13 @@ body {
   /* width: 21cm;
   height: 29.7cm; */
   font-family: 'Segoe UI', sans-serif;
-  font-size: 26px;
+  font-size: 27px;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: disc;
 }
