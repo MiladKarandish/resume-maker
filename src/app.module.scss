@@ -47,7 +47,7 @@ $color-field: #636464;
 
   ._name {
     color: $color-primary;
-    font-family: "Calibri", sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
   }
@@ -108,6 +108,8 @@ $color-field: #636464;
       margin-top: 7px;
       padding-inline-start: 2rem;
       font-size: 0.8rem;
+      text-align: justify;
+      // text-align-last: justify;
     }
 
     li {

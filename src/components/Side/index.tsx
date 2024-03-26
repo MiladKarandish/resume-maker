@@ -1,4 +1,4 @@
-import styles from "../../app.module.scss";
+import styles from '../../app.module.scss';
 
 const Side = () => {
   // Links
@@ -8,20 +8,20 @@ const Side = () => {
   }
   const contactLinks: IContactLinks[] = [
     {
-      title: "miladkaarandish@gmail.com",
-      href: "mailto:miladkaarandish@gmail.com",
+      title: 'miladkaarandish@gmail.com',
+      href: 'mailto:miladkaarandish@gmail.com',
     },
     {
-      title: "+98 917 685 6577",
-      href: "tel:+989176856577",
+      title: '+98 917 685 6577',
+      href: 'tel:+989176856577',
     },
     {
-      title: "github.com/MiladKarandish",
-      href: "https://github.com/MiladKarandish",
+      title: 'github.com/MiladKarandish',
+      href: 'https://github.com/MiladKarandish',
     },
     {
-      title: "linkedin.com/in/milad-karandish",
-      href: "https://www.linkedin.com/in/milad-karandish",
+      title: 'linkedin.com/in/milad-karandish',
+      href: 'https://www.linkedin.com/in/milad-karandish',
     },
   ];
 
@@ -32,42 +32,38 @@ const Side = () => {
   }
   const skills: ISkills[] = [
     {
-      title: "Languages",
+      title: 'Languages',
       items: [
-        "React",
-        "Next.js(SSR, SSG, ISR)",
-        "Vue.js",
-        "Nuxt.js",
-        "Redux",
-        "Pinia",
-        "jQuery",
-        "Node.js",
-        "Express.js",
-        "Sass",
-        "Bootstrap",
-        "PostCSS",
-        "MaterialUI",
-        "TailwindCSS",
+        'React',
+        'Next.js',
+        'Vue.js',
+        'Nuxt.js',
+        'Redux',
+        'Pinia',
+        'jQuery',
+        'Sass',
+        'MaterialUI',
+        'TailwindCSS',
       ],
     },
     {
-      title: "Libraries & Frameworks",
-      items: ["JavaScript", "Typescript"],
+      title: 'Libraries & Frameworks',
+      items: ['JavaScript', 'Typescript'],
     },
     {
-      title: "API",
-      items: ["REST", "GraphQL"],
+      title: 'API',
+      items: ['REST'],
+    },
+    // {
+    //   title: "Databases",
+    //   items: ["MongoDB"],
+    // },
+    {
+      title: 'CMS',
+      items: ['Strapi', 'Contentful'],
     },
     {
-      title: "Databases",
-      items: ["MongoDB"],
-    },
-    {
-      title: "CMS",
-      items: ["Strapi", "Contentful"],
-    },
-    {
-      title: "Excellent understanding of UX and UI, SEO and best practices",
+      title: 'Excellent understanding of UX and UI, SEO and best practices',
     },
   ];
 
@@ -78,12 +74,12 @@ const Side = () => {
   }
   const languages: ILanguage[] = [
     {
-      title: "Persian",
-      items: "Native",
+      title: 'Persian',
+      items: 'Native',
     },
     {
-      title: "English",
-      items: "Conversational",
+      title: 'English',
+      items: 'Conversational',
     },
   ];
 
@@ -93,8 +89,8 @@ const Side = () => {
     date: string;
   }
   const education: IEducation = {
-    title: "Diploma, Electronic Engineering",
-    date: "Sept 2017, Jun 2020",
+    title: 'Diploma, Electronic Engineering',
+    date: 'Sept 2017, Jun 2020',
   };
 
   // Address
@@ -103,14 +99,14 @@ const Side = () => {
     extra: string;
   }
   const address: IAddress = {
-    title: "Shiraz, Iran",
-    extra: "open to remote work",
+    title: 'Shiraz, Iran',
+    extra: 'open to remote work',
   };
 
   return (
-    <aside className={`${styles["_aside"]} ${styles["container"]}`}>
+    <aside className={`${styles['_aside']} ${styles['container']}`}>
       {/* Links */}
-      <div className={`${styles["_contact-links"]}`}>
+      <div className={`${styles['_contact-links']}`}>
         {contactLinks.map((contact) => (
           <a href={contact.href} target="_blank" key={contact.title}>
             {contact.title}
@@ -120,22 +116,22 @@ const Side = () => {
 
       {/* Skills */}
       <div>
-        <h2 className={`${styles["title"]}`}>Skills</h2>
+        <h2 className={`${styles['title']}`}>Skills</h2>
 
-        <div className={`${styles["sub-container"]}`}>
+        <div className={`${styles['sub-container']}`}>
           {skills.map((skill) => (
             <div key={skill.title}>
               <h3
-                className={`${styles["sub-title"]}`}
-                style={{ marginBottom: "7px" }}
+                className={`${styles['sub-title']}`}
+                style={{ marginBottom: '7px' }}
               >
                 {skill.title}
               </h3>
-              <div className={`${styles["_skill-items"]}`}>
+              <div className={`${styles['_skill-items']}`}>
                 {skill.items &&
                   skill.items.map((item, i) => (
-                    <span key={item} className={`${styles["light-text"]}`}>
-                      {item} {i + 1 < skill.items!.length && ", "}
+                    <span key={item} className={`${styles['light-text']}`}>
+                      {item} {i + 1 < skill.items!.length && ', '}
                     </span>
                   ))}
               </div>
@@ -145,33 +141,33 @@ const Side = () => {
       </div>
 
       {/* Languages */}
-      <div>
-        <h2 className={`${styles["title"]}`}>Languages</h2>
+      {/* <div>
+        <h2 className={`${styles['title']}`}>Languages</h2>
 
-        <div className={`${styles["sub-container"]}`}>
+        <div className={`${styles['sub-container']}`}>
           {languages.map((skill) => (
             <div key={skill.title}>
-              <h3 className={`${styles["sub-title"]}`}>{skill.title}</h3>
-              <span className={`${styles["light-text"]}`}>{skill.items}</span>
+              <h3 className={`${styles['sub-title']}`}>{skill.title}</h3>
+              <span className={`${styles['light-text']}`}>{skill.items}</span>
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Education */}
       <div>
-        <h2 className={`${styles["title"]}`}>Education</h2>
+        <h2 className={`${styles['title']}`}>Education</h2>
 
-        <p className={`${styles["light-text"]}`}>{education.title}</p>
-        <p className={`${styles["light-text"]}`}>{education.date}</p>
+        <p className={`${styles['light-text']}`}>{education.title}</p>
+        <p className={`${styles['light-text']}`}>{education.date}</p>
       </div>
 
       {/* Address */}
       <div>
-        <h2 className={`${styles["title"]}`}>Address</h2>
+        <h2 className={`${styles['title']}`}>Address</h2>
 
-        <p className={`${styles["light-text"]}`}>{address.title}</p>
-        <p className={`${styles["light-text"]}`}>{address.extra}</p>
+        <p className={`${styles['light-text']}`}>{address.title}</p>
+        <p className={`${styles['light-text']}`}>{address.extra}</p>
       </div>
     </aside>
   );
