@@ -68,20 +68,20 @@ const Side = () => {
   ];
 
   // Languages
-  interface ILanguage {
-    title: string;
-    items: string;
-  }
-  const languages: ILanguage[] = [
-    {
-      title: 'Persian',
-      items: 'Native',
-    },
-    {
-      title: 'English',
-      items: 'Conversational',
-    },
-  ];
+  // interface ILanguage {
+  //   title: string;
+  //   items: string;
+  // }
+  // const languages: ILanguage[] = [
+  //   {
+  //     title: 'Persian',
+  //     items: 'Native',
+  //   },
+  //   {
+  //     title: 'English',
+  //     items: 'Conversational',
+  //   },
+  // ];
 
   // Education
   interface IEducation {
