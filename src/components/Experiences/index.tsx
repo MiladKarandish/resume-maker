@@ -87,7 +87,7 @@ const Experiences = () => {
       <h2 className={`${styles['title']}`}>Relevant Experience</h2>
 
       <div className={`${styles['container']}`}>
-        {experiences.map(({ title, at, date, hilights }, i) => (
+        {experiences.map(({ title, at, date, hilights }) => (
           <div key={at.title}>
             <div className="flex items-center gap-2">
               <h3 className={`${styles['sub-title']}`}>{title}</h3>
